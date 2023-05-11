@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomeWork 2</title>
+    <style>
+        div{
+            border: 1px;
+            margin: 2px;
+        }
+        .image{
+            width: 200px;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <h3>Images - Image Maps and Colors</h3>
+    <div>Remember : You have an assigment to work on the contents of Images, Images Maps and Color in HTML5.
+        <span style="background-color:black; color: white;">Give examples of the application of these topics</span>
+    </div>
+    <hr>
+            <!--Images-->
+    <div>
+        <img class="image" src="/img/view.jpg" alt="Image from local file">
+        <img class= "image" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/33/fd/6f/ankara.jpg?w=700&h=500&s=1" alt="Image from URL">
+    </div>
+    <hr>
+    <!--Image Maps-->
+    <div>
+        <h2>Click on People's bodies !</h2>
+        <img class="image" src="/img/young.JPG" usemap="#map">
+
+        <map name="map">
+            <!--direct to relavalent person-->
+            
+            <area target="_blank" alt="" title="" href="/image_map/oldyusufemir.html" coords="88,75,23" shape="circle">
+            <area target="_blank" alt="" title="" href="/image_map/oldme.html" coords="101,136,40" shape="circle">
+        </map> 
+    </div>
+    <hr>
+    <div>
+        <h3>Working with Colors</h3>
+        <input type="color" name="acolor" value="#ff00ff">
+     </div>
+</body>
+</html>
